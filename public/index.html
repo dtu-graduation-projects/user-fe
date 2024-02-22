@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="icon" href="%PUBLIC_URL%/icons_web.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="%PUBLIC_URL%/assets/images/favicon.webp"> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/vendor/bootstrap.min.css">
+
+    <!-- Plugins CSS (All Plugins Files) -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/fancybox.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/range-slider.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/nice-select.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.min.css">
+    <title>Rose Shop</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+          <!-- JS Vendor, Plugins & Activation Script Files -->
+    <!-- Vendors JS -->
+    <script src="%PUBLIC_URL%/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="%PUBLIC_URL%/assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/plugins/fancybox.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/plugins/jquery.nice-select.min.js"></script>
+    <!-- <script src="%PUBLIC_URL%/assets/js/plugins/range-slider.js"></script> -->
+
+    <!-- Custom Main JS -->
+    <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+  
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="GraduationAI"
+      agent-id="935fa378-76d3-496e-8771-37b0c009f878"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>

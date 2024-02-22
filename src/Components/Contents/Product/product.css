@@ -1,0 +1,14 @@
+.title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .btnClear {
+    border: none;
+    background-color: rgb(255,101,101);
+    padding: 4px 12px;
+    border-radius: 8px;
+
+  }
